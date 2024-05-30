@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.trafficlight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #000;
+  max-width: 100px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #000;
+  margin: auto;
+}
+
+.light {
+  background-color: gray;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
